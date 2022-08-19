@@ -123,7 +123,10 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.1 \
     android.hardware.secure_element@1.1.vendor \
     android.hardware.secure_element@1.2 \
-    android.hardware.secure_element@1.2.vendor
+
+# Shims
+PRODUCT_PACKAGES += \
+    libpiex_shim
 
 # Wallpapers
 PRODUCT_PACKAGES += \
